@@ -1,0 +1,228 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f4f7fb;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.container{
+width:100%;
+max-width:700px;
+padding:20px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:16px;
+box-shadow:0 8px 30px rgba(0,0,0,0.08);
+}
+
+h1{
+margin:0;
+color:#1e3a8a;
+font-family:'Merriweather', serif;
+font-size:34px;
+}
+
+.subtitle{
+color:#555;
+margin-bottom:25px;
+font-family:'Inter', sans-serif;
+font-size:15px;
+}
+
+#progress{
+font-size:14px;
+color:#777;
+margin-bottom:15px;
+}
+
+#content{
+font-size:28px;
+font-weight:700;
+margin-bottom:25px;
+line-height:1.5;
+color:#111;
+font-family:'Poppins', sans-serif;
+}
+
+.option{
+display:block;
+width:100%;
+padding:14px;
+margin-bottom:12px;
+border:none;
+border-radius:10px;
+background:#eef2ff;
+cursor:pointer;
+font-size:16px;
+font-family:'Inter', sans-serif;
+font-weight:500;
+transition:0.2s;
+}
+
+.option:hover{
+background:#dbeafe;
+}
+
+#continueBtn{
+padding:12px 25px;
+border:none;
+background:#2563eb;
+color:white;
+border-radius:10px;
+cursor:pointer;
+font-size:16px;
+}
+
+.summary{
+background:#eff6ff;
+padding:18px;
+border-radius:12px;
+line-height:1.7;
+}
+
+.topbar{
+display:flex;
+justify-content:flex-end;
+margin-bottom:15px;
+}
+
+#themeToggle{
+padding:10px 14px;
+border:none;
+border-radius:8px;
+cursor:pointer;
+font-size:14px;
+background:#111827;
+color:white;
+}
+
+body.dark{
+background:#111827;
+}
+
+body.dark .card{
+background:#1f2937;
+color:white;
+}
+
+body.dark h1{
+color:#60a5fa;
+}
+
+body.dark .subtitle{
+color:#cbd5e1;
+}
+
+body.dark #content{
+color:white;
+}
+
+body.dark .option{
+background:#374151;
+color:white;
+}
+
+body.dark .option:hover{
+background:#4b5563;
+}
+
+body.dark .summary{
+background:#374151;
+color:white;
+}
+
+body.dark #themeToggle{
+background:#f3f4f6;
+color:#111827;
+}
+
+/* ========================= */
+/* NEW: Different Page Colors */
+/* ========================= */
+
+body.startPage .card{
+background:linear-gradient(135deg,#dbeafe,#ede9fe);
+}
+
+body.startPage #content{
+color:#1e3a8a;
+}
+
+body.questionPage .card{
+background:white;
+}
+
+body.reflectionPage .card{
+background:#ecfdf5;
+}
+
+body.reflectionPage #content{
+color:#065f46;
+}
+
+/* NEW Better Summary Theme */
+
+body.summaryPage .card{
+background:linear-gradient(135deg,#e0e7ff,#ede9fe,#dbeafe);
+}
+
+body.summaryPage h2{
+color:#312e81;
+font-family:'Merriweather', serif;
+font-size:30px;
+margin-bottom:18px;
+}
+
+body.summaryPage .summary{
+background:rgba(255,255,255,0.88);
+color:#1e293b;
+padding:24px;
+border-radius:18px;
+line-height:1.9;
+font-family:'Inter', sans-serif;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+body.summaryPage .summary p{
+font-size:17px;
+margin-bottom:12px;
+}
+
+body.summaryPage .summary b{
+color:#2563eb;
+}
+
+/* ======================= */
+/* DARK MODE FINAL FIXES   */
+/* ======================= */
+
+body.dark #content{
+color:white !important;
+}
+
+body.dark .subtitle{
+color:#d1d5db !important;
+}
+
+body.dark h1{
+color:#93c5fd !important;
+}
+
+body.dark .summary{
+background:#374151 !important;
+color:white !important;
+}
+
+body.dark .summary b{
+color:#60a5fa !important;
+}
+
+body.dark .card{
+background:#1f2937 !important;
+}
