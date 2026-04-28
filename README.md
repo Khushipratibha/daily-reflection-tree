@@ -12,8 +12,7 @@ This project guides users through structured end-of-day reflection using a fixed
 
 ## Live Demo
 
-https://Khushipratibha.github.io/daily-reflection-tree/
-
+https://khushipratibha.github.io/daily-reflection-tree/
 ---
 
 ## Features
